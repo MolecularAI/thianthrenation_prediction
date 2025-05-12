@@ -1,0 +1,5 @@
+substrate_name,substrate_smiles
+mol_01,CC(=O)N1CCc2ccccc21
+mol_02,O=C(Oc1ccccc1)c1ccccc1
+mol_03,COc1ccc(C(=O)c2ccc(Cl)cc2)cc1
+mol_04,COc1ccccc1CNC(=O)OCc1ccccc1

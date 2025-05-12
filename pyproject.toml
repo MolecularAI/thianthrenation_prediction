@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pattch"
+version = "0.1"
+description = "Python package of the Predictive model for the Aromatic ThianThrenation reaction for C-H functionalization (PATTCH)"
+readme = "README.md"
+authors = [{name = "Lukas Sigmund", email = "lukas.sigmund@astrazeneca.com"}]
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+
+[tool.setuptools.packages.find]
+include = ["pattch*"]
+
+[tool.setuptools.package-data]
+pattch = ["model/*.txt", "model/*.pkl"]
