@@ -8,7 +8,7 @@ For further information, please refer to our [preprint](https://chemrxiv.org/eng
 ### 1) Installation of PATTCH
 Clone the repository. 
 ```shell
-git clone <github_link>
+git clone https://github.com/MolecularAI/thianthrenation_prediction.git
 ```
 Create a conda environment with the provided ```pattch_env.yaml``` file and install the ```pattch``` package into the environment. 
 ```shell
