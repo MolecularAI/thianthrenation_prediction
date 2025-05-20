@@ -1,6 +1,6 @@
 # Predictive model for the Aromatic ThianThrenation reaction for C-H functionalization (PATTCH) 
 ```PATTCH``` is a hybrid SQM/ML workflow for the prediction of the reaction feasibility and site-selectivity of the direct thianthrenation reaction of aromatic C-H bonds.  
-For further information, please refer to our [publication](<link to publication>).  
+For further information, please refer to our [preprint](https://chemrxiv.org/engage/chemrxiv/article-details/6823546950018ac7c5f0504d) and publication (under review).  
 
 ![image](images/workflow.png)
 
