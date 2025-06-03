@@ -118,7 +118,7 @@ class PATTCH:
 
         # Format results dictionary
         self.results_dict = df.set_index("substrate_name").to_dict(orient="index")
-        self.results_dict = {name: {"substrate_info": data}for name, data in self.results_dict.items()}
+        self.results_dict = {name: {"substrate_info": data} for name, data in self.results_dict.items()}
 
         print("Input file was successfully read.")
 

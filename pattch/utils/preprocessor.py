@@ -24,7 +24,7 @@ def get_mol_object(smiles: str) -> Union[Tuple[Literal[None], Literal[None]], Tu
     try:
         mol = Chem.MolFromSmiles(smiles)
         canon_smiles = Chem.MolToSmiles(mol)
-        mol = Chem.MolFromSmiles(smiles)
+        mol = Chem.MolFromSmiles(canon_smiles)
         mol = Chem.AddHs(mol)
     except Exception:
         mol = None
